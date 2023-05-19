@@ -29,7 +29,7 @@ keymap.set("n", "<c-h>", ":wincmd h<CR>")
 keymap.set("n", "<c-l>", ":wincmd l<CR>")
 
 -- Neo-tree
-keymap.set("n", "-", ":NeoTreeFloatToggle<CR>")
+keymap.set("n", "<leader>o", ":NeoTreeFloatToggle<CR>")
 
 -- Comment
 keymap.set({ "n", "v" }, "<leader>/", ":CommentToggle<CR>")

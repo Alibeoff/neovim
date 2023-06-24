@@ -13,6 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
 	"folke/which-key.nvim",
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 	{
 		"nvim-neo-tree/neo-tree.nvim",
 		branch = "v2.x",
@@ -78,6 +79,5 @@ require("lazy").setup({
 			{ "nvim-treesitter/nvim-treesitter" },
 		},
 	},
-  { "ellisonleao/gruvbox.nvim", priority = 1000 },
   { "xiyaowong/transparent.nvim" },
 })

@@ -80,4 +80,8 @@ require("lazy").setup({
 		},
 	},
   { "xiyaowong/transparent.nvim" },
+  { "rust-lang/rust.vim" },
+  { "mfussenegger/nvim-dap" },
+  { "simrat39/rust-tools.nvim" },
+  { "Saecki/crates.nvim" }
 })
